@@ -1,0 +1,155 @@
+.header {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.header .header_img {
+  background-color: hsl(213, 21%, 26%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header .header_img img {
+  width: 40%;
+}
+.header .header_question {
+  display: flex;
+  justify-content: start;
+}
+.header .header_question h1 {
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+.container {
+  background-color: hsl(213, 19%, 18%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 399px;
+  border-radius: 25px;
+  padding: 30px;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(217, 16%, 16%);
+}
+
+.main {
+  font-family: "Overpass", sans-serif;
+  font-weight: 400;
+}
+.main .main_contents p {
+  color: hsl(217, 12%, 63%);
+  margin: 0px 0px 25px 0px;
+  font-size: 1rem;
+}
+.main .main_button {
+  display: flex;
+  justify-content: space-between;
+}
+.main .main_button .botton {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(213, 21%, 26%);
+  margin: 0px 0px 30px 0px;
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+.main .main_button .botton:hover {
+  transition: 3;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+}
+.main .main_submit #submit {
+  width: 100%;
+  height: 45px;
+  margin: auto;
+  border-radius: 50px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.main .main_submit #submit:hover {
+  background-color: hsl(25, 50%, 35%);
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+.cart_ready {
+  background-color: hsl(213, 19%, 18%);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400px;
+  height: 399px;
+  border-radius: 25px;
+  padding: 0px 40px 0px 40px;
+}
+.cart_ready .cart_ready-header img {
+  width: 150px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.cart_ready .cart_ready-header p {
+  color: hsl(25, 97%, 53%);
+  font-family: "Overpass", sans-serif;
+  background-color: hsl(213, 21%, 26%);
+  padding: 5px 15px;
+  border-radius: 20px;
+  margin: 25px 0px 0px 0px;
+}
+.cart_ready .cart_ready-main {
+  margin-top: 10px;
+}
+.cart_ready .cart_ready-main h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-size: 1.8rem;
+  font-weight: 700;
+  text-align: center;
+}
+.cart_ready .cart_ready-main p {
+  color: hsl(217, 12%, 63%);
+  text-align: center;
+  font-size: 1rem;
+  font-family: "Overpass", sans-serif;
+}
+.cart_ready .cart_ready-main button {
+  width: 100%;
+  height: 45px;
+  margin-top: 20px;
+  border-radius: 50px;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  font-family: "Overpass", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+.cart_ready .cart_ready-main button:hover {
+  background-color: hsl(25, 50%, 35%);
+  color: hsl(217, 12%, 63%);
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=estilo.css.map */
